@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    transition: 0.6s;
+}
+
+body {
+    background: wheat;
+    color: royalblue;
+    font-size: 3rem;
+    transition: all;
+}
+
+.dark{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+.dark > div > .toggle{
+    padding-left: 65px;
+}
+
+.toggle {
+    height: 40px;
+    width: 100px;
+    background-color: aqua;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 5px 5px;
+}
+.toggler {
+    height: 30px;
+    width: 30px;
+    background-color: blueviolet;
+    border-radius: 50%;
+}
